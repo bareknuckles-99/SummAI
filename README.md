@@ -80,8 +80,9 @@ Your OpenAI API Key must be stored in .env and never committed to GitHub.
 .gitignore already includes .env and __pycache__/ for protection.
 
 **Future Improvements**
-•	Add support for PDF and DOCX file uploads.
-•	Implement multi-language summarization.
+
 •	Provide export options (PDF, Markdown).
+
 •	Add interactive chat mode with memory for ongoing sessions.
+
 
