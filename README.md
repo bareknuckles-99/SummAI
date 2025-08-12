@@ -59,13 +59,21 @@ AI Assistant Output:
 
 AI-Study-Assistant/
 │
+
 ├── app.py              # Main application script
+
 ├── .env                # Environment variables (ignored in Git)
+
 ├── .gitignore          # Git ignore file
+
 ├── requirements.txt    # Dependencies
+
 ├── static/             # Static assets (if web-based)
+
 ├── templates/          # HTML templates (if web-based)
+
 └── README.md           # Project documentation
+
 
 **Security Notes**
 Your OpenAI API Key must be stored in .env and never committed to GitHub.
