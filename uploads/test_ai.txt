@@ -1,0 +1,10 @@
+AI Study Assistant
+
+This document explains the basics of Artificial Intelligence (AI). AI is a branch of computer science that focuses on creating intelligent machines capable of performing tasks that normally require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
+
+Machine Learning is a subset of AI that uses statistical techniques to give computers the ability to "learn" from data without being explicitly programmed. Deep Learning is a further subset that uses neural networks with many layers.
+
+AI applications are widespread, including in healthcare, finance, robotics, and autonomous vehicles. The future of AI promises more advanced and human-like machines that can assist in everyday tasks and complex decision-making.
+
+
+

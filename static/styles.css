@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Braven';
+  src: url('/static/fonts/braven.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Body styles with animated background and layout */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center by default */
+  align-items: center;
+  background-color: black;
+  background-image: url('/static/images/9c45c9745a8e956.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Braven', 'Poppins', sans-serif;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* On desktop, push content down but not offscreen */
+@media (min-width: 769px) {
+  body {
+    justify-content: flex-start; /* align content to top */
+    padding-top: 30vh;           /* push content down but keep visible */
+  }
+}
+
+/* On mobile, content vertically centered */
+@media (max-width: 768px) {
+  body {
+    justify-content: center;
+    padding-top: 0;
+    
+  }
+}
+
+h1 {
+  font-family: 'Braven', sans-serif;
+  font-weight: 800; /* heavy but not too bold */
+  font-size: 6rem;
+  letter-spacing: 1.5px; /* slight spacing for elegance */
+  color: #ffffff;
+  text-transform: none;
+  text-shadow:
+    1px 1px 2px rgba(0,0,0,0.3); /* subtle soft shadow for depth */
+  margin: 0 0 20px 0;
+}
+
+p {
+  font-size: 1.3rem;
+  max-width: 600px;
+  opacity: 1;
+  margin-bottom: 40px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+
+h2 {
+  font-size: 1.5rem;
+  max-width: 600px;
+  opacity: 1;
+  margin-bottom: 40px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  margin: -30px 20px 50px 0px;
+}
+
+h5 {
+  font-family: 'Braven', sans-serif;
+  font-weight: 800; /* heavy but not too bold */
+  font-size: 6rem;
+  letter-spacing: 1.5px; /* slight spacing for elegance */
+  color: #ff1d1d;
+  text-transform: none;
+  text-shadow:
+    1px 1px 2px rgba(0,0,0,0.3); /* subtle soft shadow for depth */
+  margin: 0 0 20px 0;
+}
+
+
+
+/* Buttons on links */
+a button {
+  background: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 16px 48px;
+  font-size: 1.2rem;
+  font-family: 'Braven';
+  font-weight: 600;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgb(248, 242, 154);
+  transition: all 0.3s ease;
+  letter-spacing: 2px;
+}
+
+a button:hover {
+  background: #ffd04f;
+  color: #000000;
+  box-shadow: 0 10px 30px #fffc69d5;
+  transform: scale(1.05);
+}
+
+/* Styling for upload form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+input[type="file"] {
+  border: 2px dashed #ffe44e;
+  border-radius: 12px;
+  padding: 20px;
+  background: #1a1a1a;
+  color: #ffe44e;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 300px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="file"]:hover {
+  border-color: #ff7fb1;
+}
+
+/* Result page style */
+pre {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-height: 40vh;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  box-shadow: 0 0 10px #ff4081aa;
+  user-select: text;
+  margin-bottom: 2rem;
+  width: 90vw;
+  max-width: 800px;
+  text-align: left;
+}
+
+/* Button link on result page */
+a.button-link {
+  display: inline-block;
+  text-align: center;
+  padding: 12px 28px;
+  border-radius: 30px;
+  background: #ff4081;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  width: max-content;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 10px #ff4081bb;
+}
+
+a.button-link:hover {
+  background: #e73370;
+  box-shadow: 0 6px 15px #e7337099;
+}
